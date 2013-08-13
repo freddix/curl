@@ -1,11 +1,11 @@
 Summary:	A utility for getting files from remote servers (FTP, HTTP, and others)
 Name:		curl
-Version:	7.31.0
+Version:	7.32.0
 Release:	1
 License:	MIT-like
 Group:		Applications/Networking
 Source0:	http://curl.haxx.se/download/%{name}-%{version}.tar.bz2
-# Source0-md5:	b7bea20579ac2f696338ae03f2c19ba5
+# Source0-md5:	30d04b0a8c43c6770039d1bf033dfe79
 URL:		http://curl.haxx.se/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -85,7 +85,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc CHANGES COPYING README docs/{BUGS,FAQ,FEATURES,HISTORY,KNOWN_BUGS,MANUAL,SSLCERTS,THANKS,TODO,TheArtOfHttpScripting}
 %attr(755,root,root) %{_bindir}/curl
 %{_mandir}/man1/curl.1*
-%{_mandir}/man1/mk-ca-bundle.1.*
 
 %files libs
 %defattr(644,root,root,755)
