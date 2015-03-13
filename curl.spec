@@ -1,11 +1,11 @@
 Summary:	A utility for getting files from remote servers (FTP, HTTP, and others)
 Name:		curl
-Version:	7.40.0
+Version:	7.41.0
 Release:	1
 License:	MIT-like
 Group:		Applications/Networking
 Source0:	http://curl.haxx.se/download/%{name}-%{version}.tar.bz2
-# Source0-md5:	8d30594212e65657a5c32030f0998fa9
+# Source0-md5:	87e36f88b7a0f9683fa56f1334562c3a
 URL:		http://curl.haxx.se/
 BuildRequires:	autoconf
 BuildRequires:	automake
